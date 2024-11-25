@@ -7,7 +7,7 @@ public class Customer extends Person {
 
     private boolean maillingList;
     public Customer() {
-        super();
+        super();//this is my super to get person details
         this.customerNumber="";
         this.maillingList=false;
     }
@@ -37,7 +37,7 @@ public class Customer extends Person {
     @Override
     public String toString() {
         return
-                super.toString()+
+                super.toString()+ //this is my super to print person details
                         "Customer{" +
                         "customerNumber='" + customerNumber + '\'' +
                         ", maillingList=" + maillingList +
