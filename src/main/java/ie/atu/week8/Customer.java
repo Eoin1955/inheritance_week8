@@ -38,10 +38,8 @@ public class Customer extends Person {
     public String toString() {
         return
                 super.toString()+ //this is my super to print person details
-                        "Customer{" +
                         "customerNumber='" + customerNumber + '\'' +
-                        ", maillingList=" + maillingList +
-                        '}';
+                        ", maillingList=" + maillingList;
     }
 }
 
