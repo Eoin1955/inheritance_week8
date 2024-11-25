@@ -23,7 +23,7 @@ public class Person {
     }
 
 
-    public void setName(String naem) {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -45,11 +45,10 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
+        return "Person" +
+                " name='" + name + '\'' +
                 ", address='" + address + '\'' +
-                ", phone='" + phone + '\'' +
-                '}';
+                ", phone='" + phone + '\''+",";
     }
 }
 
